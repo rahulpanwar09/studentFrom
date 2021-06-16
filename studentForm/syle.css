@@ -1,0 +1,51 @@
+body {
+    background-color: #4a83d8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.student-form {
+    display: block;
+    margin: 40px auto;
+    max-width: 520px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.student-form input {
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.student-form>div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#submit-button {
+    height: 40px;
+    min-width: 80px;
+    background-color: #b6b6b6;
+    color: white;
+}
+
+.rendered-content {
+    margin: 40px auto;
+    max-width: 520px;
+    background-color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list .item {
+    border-bottom: 1px solid darkgrey;
+    padding: 30px;
+}
